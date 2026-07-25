@@ -1,0 +1,93 @@
+{
+    "id": "",
+
+    "name": "",
+
+    "shortName": "",
+
+    "displayOrder": 0,
+
+    "category": "",
+
+    "eventType": "",
+
+    "severity": "",
+
+    "benchmark": "",
+
+    "timeline": {
+
+        "analysisStart": "",
+
+        "eventStart": "",
+
+        "eventPeak": null,
+
+        "eventBottom": "",
+
+        "recoveryStart": "",
+
+        "recoveryEnd": ""
+
+    },
+
+    "affectedSectors": [],
+
+    "affectedIndices": [],
+
+    "description": "",
+
+    "economicImpact": "",
+
+    "marketImpact": "",
+
+    "metrics": [
+
+        "drawdown",
+
+        "recovery",
+
+        "volatility",
+
+        "relativePerformance"
+
+    ],
+
+    "references": [
+
+        {
+
+            "sourceId": "",
+
+            "title": "",
+
+            "url": null,
+
+            "published": null
+
+        }
+
+    ],
+
+    "verification": {
+
+        "verified": false,
+
+        "reviewedBy": null,
+
+        "reviewDate": null,
+
+        "confidence": "LOW"
+
+    },
+
+    "metadata": {
+
+        "version": "1.0.0",
+
+        "createdAt": "",
+
+        "updatedAt": ""
+
+    }
+}

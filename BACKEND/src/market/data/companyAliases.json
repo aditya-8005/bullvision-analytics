@@ -1,0 +1,282 @@
+{
+  "BHARTIARTL": {
+    "companyName": "Bharti Airtel Limited",
+    "aliases": ["airtel", "bharti", "bharti airtel"]
+  },
+  "RELIANCE": {
+    "companyName": "Reliance Industries Limited",
+    "aliases": ["reliance", "ril", "reli", "reliance industries"]
+  },
+  "TCS": {
+    "companyName": "Tata Consultancy Services Limited",
+    "aliases": ["tcs", "tata consultancy", "tata"]
+  },
+  "TATAMOTORS": {
+    "companyName": "Tata Motors Limited",
+    "aliases": ["tata motors", "tata"]
+  },
+  "TATASTEEL": {
+    "companyName": "Tata Steel Limited",
+    "aliases": ["tata steel", "tata"]
+  },
+  "TATACONSUM": {
+    "companyName": "Tata Consumer Products Limited",
+    "aliases": ["tata consumer", "tata"]
+  },
+  "TATAPOWER": {
+    "companyName": "Tata Power Company Limited",
+    "aliases": ["tata power", "tata"]
+  },
+  "TATACHEM": {
+    "companyName": "Tata Chemicals Limited",
+    "aliases": ["tata chemicals", "tata"]
+  },
+  "TATACOMM": {
+    "companyName": "Tata Communications Limited",
+    "aliases": ["tata communications", "tata"]
+  },
+  "TATAELXSI": {
+    "companyName": "Tata Elxsi Limited",
+    "aliases": ["tata elxsi", "tata"]
+  },
+  "INFY": {
+    "companyName": "Infosys Limited",
+    "aliases": ["infosys", "infy"]
+  },
+  "WIPRO": {
+    "companyName": "Wipro Limited",
+    "aliases": ["wipro"]
+  },
+  "HCLTECH": {
+    "companyName": "HCL Technologies Limited",
+    "aliases": ["hcl", "hcl tech", "hcltech"]
+  },
+  "TECHM": {
+    "companyName": "Tech Mahindra Limited",
+    "aliases": ["tech mahindra", "techm"]
+  },
+  "SBIN": {
+    "companyName": "State Bank of India",
+    "aliases": ["sbi", "state bank"]
+  },
+  "ICICIBANK": {
+    "companyName": "ICICI Bank Limited",
+    "aliases": ["icici", "icici bank"]
+  },
+  "ICICIGI": {
+    "companyName": "ICICI Lombard General Insurance",
+    "aliases": ["icici lombard", "icici"]
+  },
+  "ICICIPRULI": {
+    "companyName": "ICICI Prudential Life Insurance",
+    "aliases": ["icici prudential", "icici"]
+  },
+  "HDFCBANK": {
+    "companyName": "HDFC Bank Limited",
+    "aliases": ["hdfc", "hdfc bank"]
+  },
+  "HDFCLIFE": {
+    "companyName": "HDFC Life Insurance Company Limited",
+    "aliases": ["hdfc life", "hdfc"]
+  },
+  "HDFCAMC": {
+    "companyName": "HDFC Asset Management Company Limited",
+    "aliases": ["hdfc amc", "hdfc"]
+  },
+  "ASIANPAINT": {
+    "companyName": "Asian Paints Limited",
+    "aliases": ["asian paints", "asian paint"]
+  },
+  "ULTRACEMCO": {
+    "companyName": "UltraTech Cement Limited",
+    "aliases": ["ultratech", "ultratech cement"]
+  },
+  "SUNPHARMA": {
+    "companyName": "Sun Pharmaceutical Industries Limited",
+    "aliases": ["sun pharma", "sun pharmaceutical"]
+  },
+  "ITC": {
+    "companyName": "ITC Limited",
+    "aliases": ["itc"]
+  },
+  "HINDUNILVR": {
+    "companyName": "Hindustan Unilever Limited",
+    "aliases": ["hul", "hindustan unilever"]
+  },
+  "BAJFINANCE": {
+    "companyName": "Bajaj Finance Limited",
+    "aliases": ["bajaj finance", "bajaj"]
+  },
+  "BAJAJFINSV": {
+    "companyName": "Bajaj Finserv Limited",
+    "aliases": ["bajaj finserv", "bajaj"]
+  },
+  "BAJAJ-AUTO": {
+    "companyName": "Bajaj Auto Limited",
+    "aliases": ["bajaj auto", "bajaj"]
+  },
+  "MARUTI": {
+    "companyName": "Maruti Suzuki India Limited",
+    "aliases": ["maruti", "maruti suzuki"]
+  },
+  "KOTAKBANK": {
+    "companyName": "Kotak Mahindra Bank Limited",
+    "aliases": ["kotak", "kotak bank", "kotak mahindra"]
+  },
+  "LT": {
+    "companyName": "Larsen & Toubro Limited",
+    "aliases": ["lt", "l&t", "larsen", "larsen and toubro"]
+  },
+  "AXISBANK": {
+    "companyName": "Axis Bank Limited",
+    "aliases": ["axis", "axis bank"]
+  },
+  "ZOMATO": {
+    "companyName": "Zomato Limited",
+    "aliases": ["zomato"]
+  },
+  "PAYTM": {
+    "companyName": "One97 Communications Limited",
+    "aliases": ["paytm", "one97"]
+  },
+  "TITAN": {
+    "companyName": "Titan Company Limited",
+    "aliases": ["titan"]
+  },
+  "NESTLEIND": {
+    "companyName": "Nestle India Limited",
+    "aliases": ["nestle", "nestle india"]
+  },
+  "POWERGRID": {
+    "companyName": "Power Grid Corporation of India Limited",
+    "aliases": ["power grid", "powergrid"]
+  },
+  "NTPC": {
+    "companyName": "NTPC Limited",
+    "aliases": ["ntpc"]
+  },
+  "ONGC": {
+    "companyName": "Oil and Natural Gas Corporation Limited",
+    "aliases": ["ongc", "oil and natural gas"]
+  },
+  "COALINDIA": {
+    "companyName": "Coal India Limited",
+    "aliases": ["coal india"]
+  },
+  "ADANIENT": {
+    "companyName": "Adani Enterprises Limited",
+    "aliases": ["adani", "adani enterprises"]
+  },
+  "ADANIPORTS": {
+    "companyName": "Adani Ports and Special Economic Zone Limited",
+    "aliases": ["adani ports", "adani"]
+  },
+  "ADANIGREEN": {
+    "companyName": "Adani Green Energy Limited",
+    "aliases": ["adani green", "adani"]
+  },
+  "JSWSTEEL": {
+    "companyName": "JSW Steel Limited",
+    "aliases": ["jsw", "jsw steel"]
+  },
+  "M&M": {
+    "companyName": "Mahindra & Mahindra Limited",
+    "aliases": ["mahindra", "m&m", "mahindra and mahindra"]
+  },
+  "EICHERMOT": {
+    "companyName": "Eicher Motors Limited",
+    "aliases": ["eicher", "royal enfield", "eicher motors"]
+  },
+  "DRREDDY": {
+    "companyName": "Dr. Reddy's Laboratories Limited",
+    "aliases": ["dr reddy", "dr reddys"]
+  },
+  "CIPLA": {
+    "companyName": "Cipla Limited",
+    "aliases": ["cipla"]
+  },
+  "DIVISLAB": {
+    "companyName": "Divi's Laboratories Limited",
+    "aliases": ["divis", "divi", "divis lab"]
+  },
+  "APOLLOHOSP": {
+    "companyName": "Apollo Hospitals Enterprise Limited",
+    "aliases": ["apollo", "apollo hospitals"]
+  },
+  "BRITANNIA": {
+    "companyName": "Britannia Industries Limited",
+    "aliases": ["britannia"]
+  },
+  "HEROMOTOCO": {
+    "companyName": "Hero MotoCorp Limited",
+    "aliases": ["hero", "hero motocorp"]
+  },
+  "INDUSINDBK": {
+    "companyName": "IndusInd Bank Limited",
+    "aliases": ["indusind", "indusind bank"]
+  },
+  "SBILIFE": {
+    "companyName": "SBI Life Insurance Company Limited",
+    "aliases": ["sbi life", "sbi"]
+  },
+  "SBICARD": {
+    "companyName": "SBI Cards and Payment Services Limited",
+    "aliases": ["sbi card", "sbi"]
+  },
+  "BPCL": {
+    "companyName": "Bharat Petroleum Corporation Limited",
+    "aliases": ["bpcl", "bharat petroleum"]
+  },
+  "GRASIM": {
+    "companyName": "Grasim Industries Limited",
+    "aliases": ["grasim"]
+  },
+  "HINDALCO": {
+    "companyName": "Hindalco Industries Limited",
+    "aliases": ["hindalco"]
+  },
+  "VEDL": {
+    "companyName": "Vedanta Limited",
+    "aliases": ["vedanta", "vedl"]
+  },
+  "BANKBARODA": {
+    "companyName": "Bank of Baroda",
+    "aliases": ["bank of baroda", "bob"]
+  },
+  "PNB": {
+    "companyName": "Punjab National Bank",
+    "aliases": ["pnb", "punjab national bank"]
+  },
+  "IOC": {
+    "companyName": "Indian Oil Corporation Limited",
+    "aliases": ["indian oil", "ioc"]
+  },
+  "PIDILITIND": {
+    "companyName": "Pidilite Industries Limited",
+    "aliases": ["pidilite", "fevicol"]
+  },
+  "NYKAA": {
+    "companyName": "FSN E-Commerce Ventures Limited",
+    "aliases": ["nykaa"]
+  },
+  "DMART": {
+    "companyName": "Avenue Supermarts Limited",
+    "aliases": ["dmart", "avenue supermarts"]
+  },
+  "IRCTC": {
+    "companyName": "Indian Railway Catering and Tourism Corporation Limited",
+    "aliases": ["irctc"]
+  },
+  "TRENT": {
+    "companyName": "Trent Limited",
+    "aliases": ["trent", "westside", "zudio"]
+  },
+  "HAL": {
+    "companyName": "Hindustan Aeronautics Limited",
+    "aliases": ["hal", "hindustan aeronautics"]
+  },
+  "BEL": {
+    "companyName": "Bharat Electronics Limited",
+    "aliases": ["bel", "bharat electronics"]
+  }
+}

@@ -1,0 +1,462 @@
+{
+    "metadata": {
+    "version": "1.0.0",
+    "status": "published",
+    "createdAt": "2026-07-17T00:00:00Z",
+    "updatedAt": "2026-07-17T00:00:00Z"
+},
+
+"identity": {
+    "id": "2000-dot-com-bubble",
+    "officialName": "Dot-com Bubble Burst (2000)",
+    "shortName": "Dot-com Bubble",
+    "displayOrder": 2,
+    "eventClass": "Speculative Bubble",
+    "category": "Technology Market Crash",
+    "eventType": "Technology Stock Bubble Collapse",
+    "severity": "HIGH",
+
+    "countriesAffected": [
+        "United States",
+        "India"
+    ],
+
+    "primaryMarket": "NASDAQ Composite",
+
+    "secondaryMarkets": [
+        "NIFTY IT",
+        "NIFTY50",
+        "BSE IT"
+    ]
+},
+
+"timeline": {
+    "analysisStart": "1995-01-01",
+    "eventStart": "2000-03-10",
+    "eventPeak": "2000-03-10",
+    "peakPanicStart": "2000-03-10",
+    "peakPanicEnd": "2001-09-30",
+    "eventBottom": "2002-10-09",
+    "recoveryStart": "2003-01-01",
+    "recoveryEnd": "2006-01-01",
+
+    "importantAnnouncements": [
+        {
+            "date": "2000-03-10",
+            "title": "NASDAQ Peaks",
+            "type": "Market",
+            "description": "The NASDAQ Composite reached its all-time high before entering a prolonged decline."
+        },
+        {
+            "date": "2000-05-16",
+            "title": "Federal Reserve Rate Tightening",
+            "type": "Central Bank",
+            "description": "Higher US interest rates reduced liquidity and accelerated the correction in technology stocks."
+        },
+        {
+            "date": "2001-01-03",
+            "title": "Global Technology Slowdown",
+            "type": "Market",
+            "description": "Technology companies worldwide began reporting weaker earnings, reinforcing the collapse in investor confidence."
+        }
+    ]
+},
+"historicalContext": {
+    "economicConditions": "The late 1990s witnessed strong global economic growth driven by rapid technological innovation and widespread internet adoption. India's software services industry expanded rapidly, supported by Y2K remediation projects and increasing global outsourcing demand.",
+
+    "marketConditions": "Technology stocks experienced unprecedented valuations despite many companies having little or no profitability. Investors aggressively chased internet-related businesses, creating one of the largest speculative bubbles in financial history.",
+
+    "politicalConditions": "India maintained a relatively stable political environment while continuing economic liberalization and encouraging growth of the information technology sector.",
+
+    "bankingSystem": "India's banking system remained fundamentally stable with limited direct exposure to speculative US technology companies. The primary impact occurred through equity markets rather than banking institutions.",
+
+    "regulatoryEnvironment": "SEBI had become a statutory regulator following the 1992 reforms. Disclosure requirements and market surveillance had improved significantly compared to the previous decade.",
+
+    "globalEnvironment": "The United States led the internet revolution, attracting massive venture capital investments into technology startups. Global investors believed the 'New Economy' would permanently transform business models and justify extremely high valuations.",
+
+    "investorSentiment": "Investor optimism reached record levels as internet and technology companies attracted extraordinary market capitalizations regardless of earnings or cash flows.",
+
+    "marketVulnerability": "Technology companies traded at unsustainable valuations, venture capital funding was abundant, speculative IPO activity accelerated, and traditional valuation metrics were largely ignored."
+},
+
+"rootCauses": {
+    "primaryCauses": [
+        "Excessive speculation in internet and technology companies.",
+        "Unsustainable valuations disconnected from company fundamentals.",
+        "Easy access to venture capital and speculative investment.",
+        "Overestimation of future growth potential for internet businesses."
+    ],
+
+    "secondaryCauses": [
+        "Media-driven investor optimism.",
+        "Large number of loss-making technology IPOs.",
+        "Retail investor participation driven by fear of missing out (FOMO).",
+        "Abundant global liquidity."
+    ],
+
+    "triggerEvent": {
+        "date": "2000-03-10",
+        "title": "NASDAQ Composite Reaches Historic Peak",
+        "description": "Technology stocks began a prolonged decline after investors questioned extremely high valuations and profitability assumptions."
+    },
+
+    "structuralCauses": [
+        "Lack of sustainable business models among many internet companies.",
+        "Weak profitability despite high market capitalizations.",
+        "Speculative capital allocation.",
+        "Rapid globalization of technology investments."
+    ]
+},
+
+"marketImpact": {
+    "summary": "The collapse of the Dot-com Bubble erased trillions of dollars in global market capitalization and significantly affected Indian technology companies due to their dependence on overseas clients and investor sentiment.",
+
+    "marketReaction": "Technology stocks experienced steep declines while broader equity markets corrected as investors shifted away from high-growth speculative assets.",
+
+    "investorBehaviour": "Investors rapidly exited technology stocks and shifted toward companies with stronger balance sheets, stable earnings, and proven business models.",
+
+    "liquidityImpact": "Funding for technology startups declined sharply as venture capital investments slowed and IPO activity nearly stopped.",
+
+    "sentimentChange": "Market sentiment shifted from extreme optimism regarding internet businesses to a greater emphasis on profitability, corporate governance, and sustainable earnings."
+},
+
+"economicImpact": {
+    "gdp": "India's overall GDP experienced limited direct impact, although growth within the information technology sector slowed temporarily.",
+
+    "inflation": "The Dot-com Bubble had no significant direct impact on domestic inflation.",
+
+    "interestRates": "Global monetary policy gradually shifted as central banks responded to slowing economic activity following the collapse.",
+
+    "exchangeRate": "The Indian Rupee experienced moderate pressure due to reduced foreign investment and slower technology exports.",
+
+    "employment": "Several technology startups reduced hiring or ceased operations, leading to temporary job losses within the global technology sector.",
+
+    "industrialProduction": "Industrial production remained largely unaffected because the crisis was concentrated within technology and equity markets.",
+
+    "exports": "Indian software exports experienced slower growth as technology spending declined in developed markets.",
+
+    "imports": "Minimal direct impact on imports.",
+
+    "consumerSpending": "Consumer spending remained relatively stable in India despite weaker global technology demand.",
+
+    "corporateEarnings": "Technology companies experienced earnings pressure due to reduced client spending and weaker global demand.",
+
+    "creditGrowth": "Banks remained cautious toward financing speculative technology ventures following the collapse."
+},
+"governmentResponse": {
+    "policies": [
+        "Continued support for India's Information Technology sector through Software Technology Parks of India (STPI).",
+        "Maintained economic liberalization policies to encourage long-term growth in the technology industry.",
+        "Promoted software exports through tax incentives under Sections 10A and 10B of the Income Tax Act."
+    ],
+
+    "fiscalMeasures": [
+        "Focused on strengthening the IT export ecosystem rather than introducing emergency fiscal stimulus.",
+        "Encouraged investment in technology infrastructure and software services."
+    ],
+
+    "taxChanges": [
+        "Continuation of tax benefits for software export-oriented companies under the STPI framework."
+    ],
+
+    "emergencyActions": [],
+
+    "longTermReforms": [
+        "Strengthened India's position as a global software outsourcing destination.",
+        "Encouraged sustainable growth of the domestic IT industry.",
+        "Improved corporate governance standards for listed technology companies."
+    ]
+},
+
+"centralBankResponse": {
+    "repoRate": "The Reserve Bank of India gradually eased monetary policy during 2001–2002 as global economic growth slowed.",
+
+    "reverseRepo": "Reverse Repo operations were used as part of routine liquidity management rather than emergency intervention.",
+
+    "crr": "Cash Reserve Ratio adjustments supported liquidity during the economic slowdown.",
+
+    "slr": "No major Statutory Liquidity Ratio reforms were introduced specifically because of the Dot-com Bubble.",
+
+    "liquidityMeasures": [
+        "Maintained adequate liquidity within the banking system.",
+        "Monitored external risks arising from the global technology slowdown."
+    ],
+
+    "forexInterventions": [
+        "Managed rupee volatility arising from reduced technology exports and foreign capital flows."
+    ],
+
+    "specialSchemes": [],
+
+    "emergencyMeasures": [],
+
+    "longTermMonetaryChanges": [
+        "Improved monitoring of global financial developments and their impact on India's external sector.",
+        "Greater emphasis on financial stability alongside economic growth."
+    ]
+},
+
+"regulatoryChanges": {
+    "sebi": [
+        "Strengthened disclosure requirements for listed companies.",
+        "Improved corporate governance standards.",
+        "Enhanced surveillance of speculative trading activity."
+    ],
+
+    "rbi": [
+        "Improved monitoring of external financial risks.",
+        "Enhanced oversight of banking exposure to volatile sectors."
+    ],
+
+    "stockExchange": [
+        "Expanded electronic trading infrastructure.",
+        "Strengthened market surveillance systems."
+    ],
+
+    "settlement": [
+        "Continued migration toward dematerialized securities.",
+        "Improved settlement efficiency through electronic processes."
+    ],
+
+    "disclosure": [
+        "Greater emphasis on earnings quality and corporate transparency.",
+        "Improved disclosure requirements for technology companies."
+    ],
+
+    "riskManagement": [
+        "Strengthened broker supervision.",
+        "Enhanced market surveillance mechanisms.",
+        "Improved valuation discipline within capital markets."
+    ],
+
+    "permanentChanges": [
+        "Greater investor focus on business fundamentals rather than speculation.",
+        "Improved corporate governance standards.",
+        "Higher disclosure quality for listed technology companies.",
+        "Recognition of valuation risk in high-growth sectors."
+    ]
+},
+"sectorAnalysis": [
+    {
+        "sector": "Information Technology (IT & ITES)",
+        "reason": "Indian IT companies were heavily dependent on US technology clients, making them vulnerable to reduced global IT spending.",
+        "shortTermImpact": "Sharp correction in technology stock prices, slower revenue growth, reduced discretionary IT spending by global clients.",
+        "longTermImpact": "Indian IT companies shifted toward sustainable service-based business models and emerged as global outsourcing leaders."
+    },
+    {
+        "sector": "Telecommunications",
+        "reason": "Telecom expansion slowed as internet-related investments declined globally.",
+        "shortTermImpact": "Reduced capital expenditure and delayed infrastructure expansion.",
+        "longTermImpact": "Sector recovered with increasing mobile and broadband adoption during the following decade."
+    },
+    {
+        "sector": "Financial Services",
+        "reason": "Capital market activity slowed due to reduced IPOs and lower investor participation in technology stocks.",
+        "shortTermImpact": "Lower investment banking activity and reduced trading volumes.",
+        "longTermImpact": "Improved risk assessment for growth-oriented companies and stronger valuation practices."
+    },
+    {
+        "sector": "Fast Moving Consumer Goods (FMCG)",
+        "reason": "Domestic consumption remained relatively stable despite weakness in technology stocks.",
+        "shortTermImpact": "Minimal impact.",
+        "longTermImpact": "Continued steady growth driven by domestic demand."
+    }
+],
+
+"companyImpact": [
+    {
+        "company": "Infosys",
+        "sector": "Information Technology",
+        "reason": "High dependence on overseas technology spending, particularly from US clients.",
+        "shortTermImpact": "Significant share price correction and moderation in revenue growth.",
+        "longTermImpact": "Strengthened its position through disciplined execution, corporate governance, and global delivery capabilities."
+    },
+    {
+        "company": "Wipro",
+        "sector": "Information Technology",
+        "reason": "Global technology slowdown affected software export demand.",
+        "shortTermImpact": "Valuation correction and slower client spending.",
+        "longTermImpact": "Expanded service offerings and maintained long-term growth."
+    },
+    {
+        "company": "Tata Consultancy Services (TCS)",
+        "sector": "Information Technology",
+        "reason": "Demand slowdown from global technology clients.",
+        "shortTermImpact": "Reduced growth momentum.",
+        "longTermImpact": "Established itself as one of the world's leading IT services companies."
+    },
+    {
+        "company": "HCL Technologies",
+        "sector": "Information Technology",
+        "reason": "Exposure to international technology spending.",
+        "shortTermImpact": "Temporary decline in business growth.",
+        "longTermImpact": "Successfully diversified across infrastructure and enterprise services."
+    },
+    {
+        "company": "Satyam Computer Services",
+        "sector": "Information Technology",
+        "reason": "Broader sector slowdown affected investor confidence.",
+        "shortTermImpact": "Share price correction during the technology downturn.",
+        "longTermImpact": "Recovered initially but later faced an unrelated corporate governance crisis in 2009."
+    }
+],
+
+"structuralLegacy": {
+    "marketStructure": [
+        "Technology companies were increasingly evaluated using sustainable financial metrics instead of speculative growth expectations.",
+        "Greater emphasis was placed on earnings quality and business fundamentals."
+    ],
+
+    "regulation": [
+        "Corporate governance standards received increased attention.",
+        "Disclosure requirements for listed companies continued to improve."
+    ],
+
+    "technology": [
+        "India's IT services model proved more resilient than speculative internet startups.",
+        "The global outsourcing industry accelerated after the recovery."
+    ],
+
+    "investorBehaviour": [
+        "Investors became more cautious about speculative sectors.",
+        "Valuation discipline became increasingly important in equity investing.",
+        "Diversification gained importance after concentrated technology losses."
+    ],
+
+    "economy": [
+        "India strengthened its reputation as a global software services hub.",
+        "Technology companies increasingly focused on profitability, cash flow, and long-term client relationships."
+    ]
+},
+
+"benchmark": {
+    "primary": "NIFTY IT",
+
+    "alternatives": [
+        "NIFTY50",
+        "BSE IT",
+        "NASDAQ Composite"
+    ],
+
+    "selectionReason": "The Dot-com Bubble primarily affected technology companies. NIFTY IT best represents the impact on India's software sector, while NASDAQ Composite reflects the origin of the global technology crash."
+},
+"relatedContent": {
+    "events": [
+        "1992-harshad-mehta",
+        "2008-global-financial-crisis",
+        "2020-covid-crash"
+    ],
+
+    "companies": [
+        "Infosys",
+        "Wipro",
+        "Tata Consultancy Services (TCS)",
+        "HCL Technologies",
+        "Satyam Computer Services"
+    ],
+
+    "sectors": [
+        "Information Technology (IT & ITES)",
+        "Telecommunications",
+        "Financial Services",
+        "Fast Moving Consumer Goods (FMCG)"
+    ]
+},
+
+"analyticsConfiguration": {
+    "recommendedMetrics": [
+        "Drawdown",
+        "Recovery",
+        "Recovery Speed",
+        "Volatility",
+        "Relative Performance",
+        "Rolling Returns",
+        "Maximum Loss",
+        "Beta",
+        "Market Strength Score",
+        "Crash Resistance Score",
+        "Sector Performance Comparison",
+        "Technology Sector Relative Strength"
+    ]
+},
+
+"ui": {
+    "keywords": [
+        "Dot-com Bubble",
+        "Dot-com Crash",
+        "Technology Bubble",
+        "NASDAQ Crash",
+        "Internet Bubble",
+        "Tech Bubble 2000"
+    ],
+
+    "aliases": [
+        "Dot-com Bust",
+        "2000 Tech Crash",
+        "Internet Bubble Burst"
+    ],
+
+    "uiInsights": [
+        "High growth does not justify unlimited valuations.",
+        "Sustainable earnings ultimately drive long-term stock performance.",
+        "Diversification protects investors from sector-specific bubbles.",
+        "Speculative enthusiasm can significantly disconnect prices from fundamentals.",
+        "Strong companies often emerge stronger after speculative bubbles burst."
+    ],
+
+    "interestingFacts": [
+        "NASDAQ lost nearly 78% of its value from peak to trough.",
+        "Thousands of internet startups disappeared after the bubble burst.",
+        "Indian IT companies survived because they generated real revenues and profits.",
+        "The Dot-com Bubble fundamentally changed how investors value technology companies.",
+        "Many lessons from the Dot-com Bubble continue to influence modern technology investing."
+    ]
+},
+
+"references": {
+    "primarySources": [
+        "Reserve Bank of India (RBI)",
+        "Securities and Exchange Board of India (SEBI)",
+        "National Stock Exchange (NSE)",
+        "Bombay Stock Exchange (BSE)",
+        "Government of India Economic Survey"
+    ],
+
+    "secondarySources": [
+        "NASDAQ Historical Data",
+        "Federal Reserve Publications",
+        "Reuters Historical Archives",
+        "Bloomberg Market History",
+        "IMF Global Financial Reports"
+    ]
+},
+
+"verification": {
+    "verified": true,
+
+    "reviewedBy": "BullVision Research Team",
+
+    "reviewDate": "2026-07-17",
+
+    "confidence": {
+        "overall": "HIGH",
+
+        "sections": {
+            "identity": "HIGH",
+            "timeline": "MEDIUM",
+            "historicalContext": "HIGH",
+            "rootCauses": "HIGH",
+            "marketImpact": "HIGH",
+            "economicImpact": "HIGH",
+            "governmentResponse": "MEDIUM",
+            "centralBankResponse": "MEDIUM",
+            "regulatoryChanges": "HIGH",
+            "sectorAnalysis": "HIGH",
+            "companyImpact": "HIGH",
+            "structuralLegacy": "HIGH",
+            "benchmark": "HIGH",
+            "references": "HIGH"
+        }
+    }
+}
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bullvision.dev/research/event.schema.json",
+  "title": "BullVision Historical Event Schema",
+  "description": "Production schema for BullVision historical research events.",
+  "type": "object",
+
+  "required": [
+    "metadata",
+    "identity",
+    "timeline",
+    "historicalContext",
+    "rootCauses",
+    "marketImpact",
+    "economicImpact",
+    "governmentResponse",
+    "centralBankResponse",
+    "regulatoryChanges",
+    "sectorAnalysis",
+    "companyImpact",
+    "structuralLegacy",
+    "benchmark",
+    "relatedContent",
+    "analyticsConfiguration",
+    "ui",
+    "references",
+    "verification"
+  ],
+
+  "properties": {
+
+    "metadata": {
+      "type": "object",
+      "required": [
+        "version",
+        "status",
+        "createdAt",
+        "updatedAt"
+      ],
+      "properties": {
+        "version": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "verified",
+            "published"
+          ]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+
+    "identity": {
+      "type": "object",
+      "required": [
+        "id",
+        "officialName",
+        "shortName",
+        "displayOrder",
+        "eventClass",
+        "category",
+        "eventType",
+        "severity"
+      ],
+      "properties": {
+
+        "id": {
+          "type": "string"
+        },
+
+        "officialName": {
+          "type": "string"
+        },
+
+        "shortName": {
+          "type": "string"
+        },
+
+        "displayOrder": {
+          "type": "integer"
+        },
+
+        "eventClass": {
+          "type": "string"
+        },
+
+        "category": {
+          "type": "string"
+        },
+
+        "eventType": {
+          "type": "string"
+        },
+
+        "severity": {
+          "type": "string"
+        },
+
+        "countriesAffected": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "primaryMarket": {
+          "type": "string"
+        },
+
+        "secondaryMarkets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+
+      }
+    },
+
+    "timeline": {
+      "type": "object"
+    },
+
+    "historicalContext": {
+      "type": "object"
+    },
+
+    "rootCauses": {
+      "type": "object"
+    },
+
+    "marketImpact": {
+      "type": "object"
+    },
+
+    "economicImpact": {
+      "type": "object"
+    },
+
+    "governmentResponse": {
+      "type": "object"
+    },
+
+    "centralBankResponse": {
+      "type": "object"
+    },
+
+    "regulatoryChanges": {
+      "type": "object"
+    },
+
+    "sectorAnalysis": {
+      "type": "array"
+    },
+
+    "companyImpact": {
+      "type": "array"
+    },
+
+    "structuralLegacy": {
+      "type": "object"
+    },
+
+    "benchmark": {
+      "type": "object"
+    },
+
+    "relatedContent": {
+      "type": "object"
+    },
+
+    "analyticsConfiguration": {
+      "type": "object"
+    },
+
+    "ui": {
+      "type": "object"
+    },
+
+    "references": {
+      "type": "object"
+    },
+
+    "verification": {
+      "type": "object"
+    }
+
+  }
+}

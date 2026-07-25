@@ -1,0 +1,138 @@
+{
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-15",
+
+    "officialIndianSources": [
+        {
+            "id": "RBI",
+            "name": "Reserve Bank of India",
+            "website": "https://www.rbi.org.in",
+            "category": "Central Bank",
+            "priority": 1,
+            "trusted": true,
+            "description": "Official source for monetary policy, banking regulations and financial stability."
+        },
+        {
+            "id": "SEBI",
+            "name": "Securities and Exchange Board of India",
+            "website": "https://www.sebi.gov.in",
+            "category": "Market Regulator",
+            "priority": 1,
+            "trusted": true,
+            "description": "Official securities market regulator."
+        },
+        {
+            "id": "NSE",
+            "name": "National Stock Exchange of India",
+            "website": "https://www.nseindia.com",
+            "category": "Stock Exchange",
+            "priority": 1,
+            "trusted": true,
+            "description": "Official exchange for benchmark indices and listed companies."
+        },
+        {
+            "id": "BSE",
+            "name": "Bombay Stock Exchange",
+            "website": "https://www.bseindia.com",
+            "category": "Stock Exchange",
+            "priority": 1,
+            "trusted": true,
+            "description": "Official exchange for listed securities."
+        },
+        {
+            "id": "MOF",
+            "name": "Ministry of Finance",
+            "website": "https://www.finmin.gov.in",
+            "category": "Government",
+            "priority": 1,
+            "trusted": true,
+            "description": "Official government financial policies and announcements."
+        }
+    ],
+
+    "internationalSources": [
+        {
+            "id": "IMF",
+            "name": "International Monetary Fund",
+            "website": "https://www.imf.org",
+            "priority": 2,
+            "trusted": true
+        },
+        {
+            "id": "WORLD_BANK",
+            "name": "World Bank",
+            "website": "https://www.worldbank.org",
+            "priority": 2,
+            "trusted": true
+        },
+        {
+            "id": "FED",
+            "name": "Federal Reserve",
+            "website": "https://www.federalreserve.gov",
+            "priority": 2,
+            "trusted": true
+        }
+    ],
+
+    "marketDataProviders": [
+        {
+            "id": "ANGEL_ONE",
+            "name": "Angel One SmartAPI",
+            "purpose": "Historical and live market data",
+            "priority": 1,
+            "trusted": true
+        }
+    ],
+
+    "secondarySources": [
+        {
+            "id": "REUTERS",
+            "name": "Reuters",
+            "purpose": "Context and chronology",
+            "priority": 3,
+            "trusted": true
+        },
+        {
+            "id": "BLOOMBERG",
+            "name": "Bloomberg",
+            "purpose": "Financial reporting",
+            "priority": 3,
+            "trusted": true
+        },
+        {
+            "id": "MONEYCONTROL",
+            "name": "Moneycontrol",
+            "purpose": "Supporting context",
+            "priority": 4,
+            "trusted": true
+        },
+        {
+            "id": "ECONOMIC_TIMES",
+            "name": "The Economic Times",
+            "purpose": "Supporting context",
+            "priority": 4,
+            "trusted": true
+        }
+    ],
+
+    "restrictedSources": [
+        {
+            "name": "Wikipedia",
+            "allowed": true,
+            "purpose": "Initial discovery only",
+            "canBePrimarySource": false
+        },
+        {
+            "name": "Blogs",
+            "allowed": false
+        },
+        {
+            "name": "Random YouTube Channels",
+            "allowed": false
+        },
+        {
+            "name": "Social Media Posts",
+            "allowed": false
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+:root {
+  --bull-font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  --bull-font-display: 'Inter Tight', 'Inter', 'Segoe UI', system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  --bull-font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas,
+    'Liberation Mono', monospace;
+
+  --bull-text-2xs: 0.6875rem;
+  --bull-text-xs: 0.75rem;
+  --bull-text-sm: 0.875rem;
+  --bull-text-md: 0.9375rem;
+  --bull-text-base: 1rem;
+  --bull-text-lg: 1.125rem;
+  --bull-text-xl: 1.25rem;
+  --bull-text-2xl: 1.5rem;
+  --bull-text-3xl: 1.875rem;
+  --bull-text-4xl: 2.25rem;
+  --bull-text-5xl: 3rem;
+  --bull-text-6xl: 3.75rem;
+  --bull-text-7xl: 4.5rem;
+
+  --bull-leading-none: 1;
+  --bull-leading-tight: 1.08;
+  --bull-leading-snug: 1.22;
+  --bull-leading-normal: 1.45;
+  --bull-leading-relaxed: 1.65;
+
+  --bull-tracking-tight: -0.05em;
+  --bull-tracking-normal: 0;
+  --bull-tracking-wide: 0.02em;
+  --bull-tracking-wider: 0.04em;
+
+  --bull-weight-regular: 400;
+  --bull-weight-medium: 500;
+  --bull-weight-semibold: 600;
+  --bull-weight-bold: 700;
+  --bull-weight-black: 800;
+
+  --bull-text-display-xl: 4.5rem;
+  --bull-text-display-lg: 3.75rem;
+  --bull-text-display-md: 3rem;
+  --bull-text-display-sm: 2.25rem;
+  --bull-text-label: 0.8125rem;
+  --bull-text-caption: 0.75rem;
+}

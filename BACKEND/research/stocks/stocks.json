@@ -1,0 +1,90 @@
+{
+    "version": "1.0.0",
+
+    "sectors": [
+
+        {
+            "id": "BANKING",
+            "name": "Banking",
+            "benchmark": "NIFTYBANK"
+        },
+
+        {
+            "id": "FINANCIAL_SERVICES",
+            "name": "Financial Services",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "INFORMATION_TECHNOLOGY",
+            "name": "Information Technology",
+            "benchmark": "NIFTYIT"
+        },
+
+        {
+            "id": "PHARMACEUTICALS",
+            "name": "Pharmaceuticals",
+            "benchmark": "NIFTYPHARMA"
+        },
+
+        {
+            "id": "FMCG",
+            "name": "Fast Moving Consumer Goods",
+            "benchmark": "NIFTYFMCG"
+        },
+
+        {
+            "id": "AUTOMOBILE",
+            "name": "Automobile",
+            "benchmark": "NIFTYAUTO"
+        },
+
+        {
+            "id": "REAL_ESTATE",
+            "name": "Real Estate",
+            "benchmark": "NIFTYREALTY"
+        },
+
+        {
+            "id": "METALS",
+            "name": "Metals",
+            "benchmark": "NIFTYMETAL"
+        },
+
+        {
+            "id": "ENERGY",
+            "name": "Energy",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "INFRASTRUCTURE",
+            "name": "Infrastructure",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "TELECOMMUNICATION",
+            "name": "Telecommunication",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "CHEMICALS",
+            "name": "Chemicals",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "CONSUMER_DURABLES",
+            "name": "Consumer Durables",
+            "benchmark": "NIFTY50"
+        },
+
+        {
+            "id": "MEDIA",
+            "name": "Media & Entertainment",
+            "benchmark": "NIFTY50"
+        }
+    ]
+}

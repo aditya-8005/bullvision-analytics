@@ -1,0 +1,29 @@
+[
+  {
+    "id": "COVID_2020",
+    "name": "COVID-19 Market Crash",
+    "category": "GLOBAL_CRISIS",
+    "country": "GLOBAL",
+    "startDate": "2020-02-20",
+    "endDate": "2020-03-31",
+    "description": "Global market crash caused by the COVID-19 pandemic."
+  },
+  {
+    "id": "DEMONETIZATION_2016",
+    "name": "Demonetization",
+    "category": "GOVERNMENT_POLICY",
+    "country": "INDIA",
+    "startDate": "2016-11-08",
+    "endDate": "2016-12-30",
+    "description": "Government demonetization announcement."
+  },
+  {
+    "id": "GFC_2008",
+    "name": "Global Financial Crisis",
+    "category": "GLOBAL_CRISIS",
+    "country": "GLOBAL",
+    "startDate": "2008-09-15",
+    "endDate": "2009-03-09",
+    "description": "Lehman Brothers collapse and the global financial crisis."
+  }
+]

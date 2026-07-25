@@ -1,0 +1,466 @@
+{
+    "metadata": {
+    "version": "1.0.0",
+    "status": "published",
+    "createdAt": "2026-07-17T00:00:00Z",
+    "updatedAt": "2026-07-17T00:00:00Z"
+},
+
+"identity": {
+    "id": "1992-harshad-mehta",
+    "officialName": "1992 Indian Securities Scam (Harshad Mehta Scam)",
+    "shortName": "Harshad Mehta Scam",
+    "displayOrder": 1,
+    "eventClass": "Financial Fraud",
+    "category": "Stock Market Manipulation",
+    "eventType": "Securities Scam",
+    "severity": "EXTREME",
+
+    "countriesAffected": [
+        "India"
+    ],
+
+    "primaryMarket": "BSE Sensex",
+
+    "secondaryMarkets": [
+        "NIFTY50"
+    ]
+},
+
+"timeline": {
+    "analysisStart": "1991-07-01",
+    "eventStart": "1992-04-23",
+    "eventPeak": "1992-04-08",
+    "peakPanicStart": "1992-04-23",
+    "peakPanicEnd": "1992-05-15",
+    "eventBottom": "1993-04-27",
+    "recoveryStart": "1993-05-01",
+    "recoveryEnd": "1994-06-01",
+
+    "importantAnnouncements": [
+        {
+            "date": "1992-04-23",
+            "title": "Securities Scam Exposed",
+            "type": "Market",
+            "description": "Journalist Sucheta Dalal exposed irregularities involving Harshad Mehta and the misuse of banking funds in the stock market."
+        },
+        {
+            "date": "1992-06-06",
+            "title": "SEBI Given Statutory Powers",
+            "type": "Government",
+            "description": "The Government strengthened SEBI by granting statutory powers to regulate the Indian securities market."
+        },
+        {
+            "date": "1992-08-06",
+            "title": "Joint Parliamentary Committee Constituted",
+            "type": "Government",
+            "description": "A Joint Parliamentary Committee (JPC) was established to investigate the securities scam and recommend reforms."
+        }
+    ]
+},
+"historicalContext": {
+    "economicConditions": "India had recently initiated economic liberalization in 1991, opening its economy to private investment and financial market reforms. Investor confidence was growing rapidly, supported by expectations of sustained economic growth.",
+
+    "marketConditions": "Indian equity markets experienced a historic bull run driven by abundant liquidity, aggressive speculation, and rapidly increasing retail participation. Stock prices became disconnected from their underlying fundamentals.",
+
+    "politicalConditions": "The Government of India was implementing structural economic reforms under Prime Minister P. V. Narasimha Rao, creating optimism about India's long-term economic prospects.",
+
+    "bankingSystem": "The banking system relied heavily on manual settlement processes, Bank Receipts (BRs), and Ready Forward (RF) deals. Weak internal controls and inadequate supervision created opportunities for misuse of banking funds.",
+
+    "regulatoryEnvironment": "SEBI had been established but lacked statutory powers until after the scam. Market regulation, disclosure standards, and surveillance mechanisms were still evolving.",
+
+    "globalEnvironment": "Global financial markets remained relatively stable. The scam was largely a domestic event driven by weaknesses in India's financial infrastructure rather than international factors.",
+
+    "investorSentiment": "Investor optimism was extremely high as equity prices rose rapidly. Many investors believed the rally would continue indefinitely, encouraging speculative behaviour.",
+
+    "marketVulnerability": "Weak banking controls, paper-based settlements, poor regulatory oversight, excessive speculation, and limited market surveillance made the Indian stock market highly vulnerable to manipulation."
+},
+
+"rootCauses": {
+    "primaryCauses": [
+        "Misuse of Ready Forward (RF) deals between banks.",
+        "Fraudulent use of fake Bank Receipts (BRs).",
+        "Diversion of banking funds into the stock market.",
+        "Manipulation of share prices through concentrated buying."
+    ],
+
+    "secondaryCauses": [
+        "Weak regulatory oversight.",
+        "Manual settlement systems.",
+        "Lack of real-time market surveillance.",
+        "Poor internal controls within banks."
+    ],
+
+    "triggerEvent": {
+        "date": "1992-04-23",
+        "title": "Scam Exposed by Sucheta Dalal",
+        "description": "Investigative journalist Sucheta Dalal exposed the misuse of banking funds by Harshad Mehta, triggering one of India's largest stock market crashes."
+    },
+
+    "structuralCauses": [
+        "Immature capital market infrastructure.",
+        "Absence of electronic trading.",
+        "Paper-based share certificates.",
+        "Inadequate banking supervision.",
+        "Limited regulatory powers available to SEBI."
+    ]
+},
+
+"marketImpact": {
+    "summary": "The exposure of the securities scam caused a sharp decline in investor confidence and one of the largest stock market crashes in India's history.",
+
+    "marketReaction": "The BSE Sensex experienced a steep correction as manipulated stocks collapsed and widespread selling spread across the market.",
+
+    "investorBehaviour": "Retail investors exited the market in panic while institutional participants reduced risk exposure amid uncertainty regarding the integrity of the financial system.",
+
+    "liquidityImpact": "Banking liquidity tightened as fraudulent transactions were uncovered, interbank trust declined, and market participants became increasingly risk-averse.",
+
+    "sentimentChange": "Investor sentiment shifted rapidly from extreme optimism to fear, significantly reducing confidence in India's capital markets until regulatory reforms restored credibility."
+},
+
+"economicImpact": {
+    "gdp": "The scam did not trigger a recession but temporarily weakened investor confidence during India's early economic liberalization period.",
+
+    "inflation": "Inflation was not significantly affected directly by the securities scam.",
+
+    "interestRates": "No major monetary policy shift occurred specifically because of the scam, although banking supervision became more cautious.",
+
+    "exchangeRate": "The Indian Rupee experienced limited direct impact as the event primarily affected domestic financial markets.",
+
+    "employment": "Employment effects were limited because the crisis remained concentrated within the financial sector.",
+
+    "industrialProduction": "Industrial production remained broadly unaffected, although investment sentiment weakened temporarily.",
+
+    "exports": "Exports experienced minimal direct impact.",
+
+    "imports": "Imports were not materially affected by the securities scam.",
+
+    "consumerSpending": "Consumer spending remained relatively stable because the crisis was largely confined to financial markets.",
+
+    "corporateEarnings": "Companies whose share prices had been artificially inflated experienced significant valuation corrections.",
+
+    "creditGrowth": "Banks became more cautious in lending and investment activities following the discovery of fraudulent transactions."
+},
+"governmentResponse": {
+    "policies": [
+        "Established a Joint Parliamentary Committee (JPC) to investigate the securities scam.",
+        "Strengthened the legal framework governing India's capital markets.",
+        "Accelerated financial sector reforms initiated after the 1991 economic liberalization.",
+        "Increased coordination between the Ministry of Finance, RBI, and SEBI."
+    ],
+
+    "fiscalMeasures": [
+        "Focused on restoring confidence in India's financial system rather than introducing fiscal stimulus.",
+        "Allocated resources for strengthening financial market supervision and regulatory institutions."
+    ],
+
+    "taxChanges": [],
+
+    "emergencyActions": [
+        "Initiated investigations into fraudulent banking transactions.",
+        "Directed financial institutions to review internal controls and settlement procedures.",
+        "Introduced stricter oversight of securities transactions."
+    ],
+
+    "longTermReforms": [
+        "Granted statutory powers to SEBI through the SEBI Act, 1992.",
+        "Supported the establishment of the National Stock Exchange (NSE).",
+        "Modernized India's capital market regulatory framework."
+    ]
+},
+
+"centralBankResponse": {
+    "repoRate": "No major repo rate action was taken specifically in response to the scam.",
+
+    "reverseRepo": "Reverse Repo was not a primary monetary policy tool during this period.",
+
+    "crr": "No significant Cash Reserve Ratio changes were introduced specifically because of the securities scam.",
+
+    "slr": "The Reserve Bank of India gradually reviewed Statutory Liquidity Ratio requirements while strengthening banking supervision.",
+
+    "liquidityMeasures": [
+        "Improved oversight of inter-bank transactions.",
+        "Strengthened monitoring of Ready Forward (RF) deals.",
+        "Enhanced supervision of banking liquidity and treasury operations."
+    ],
+
+    "forexInterventions": [],
+
+    "specialSchemes": [],
+
+    "emergencyMeasures": [
+        "Issued circulars tightening the use of Bank Receipts (BRs).",
+        "Strengthened inspection of treasury operations within commercial banks.",
+        "Enhanced reconciliation procedures for government securities transactions."
+    ]
+},
+
+"regulatoryChanges": {
+    "sebi": [
+        "SEBI received statutory powers through the SEBI Act, 1992.",
+        "Expanded market surveillance and enforcement capabilities.",
+        "Strengthened disclosure requirements for listed companies."
+    ],
+
+    "rbi": [
+        "Strengthened regulation of Ready Forward transactions.",
+        "Improved banking supervision and treasury controls.",
+        "Enhanced audit requirements for financial institutions."
+    ],
+
+    "stockExchange": [
+        "Supported the establishment of the National Stock Exchange (NSE).",
+        "Accelerated the transition toward electronic trading systems.",
+        "Improved exchange surveillance and market transparency."
+    ],
+
+    "settlement": [
+        "Reduced dependence on paper-based settlements.",
+        "Strengthened clearing and settlement mechanisms.",
+        "Introduced stricter controls over settlement risk."
+    ],
+
+    "disclosure": [
+        "Improved financial reporting standards.",
+        "Enhanced transparency requirements for listed companies and intermediaries."
+    ],
+
+    "riskManagement": [
+        "Introduced stronger market surveillance.",
+        "Improved broker supervision.",
+        "Enhanced banking risk controls.",
+        "Strengthened audit and compliance mechanisms."
+    ],
+
+    "permanentChanges": [
+        "SEBI became India's primary securities market regulator.",
+        "Creation of the National Stock Exchange (NSE).",
+        "Foundation for dematerialized securities through NSDL (1996).",
+        "Transition to electronic and screen-based trading.",
+        "Improved clearing corporations and settlement systems.",
+        "Modern risk management practices became standard across Indian capital markets."
+    ]
+},
+"sectorAnalysis": [
+    {
+        "sector": "Banking & Financial Services",
+        "reason": "Banks were directly involved through misuse of Ready Forward (RF) deals and fake Bank Receipts (BRs).",
+        "shortTermImpact": "Significant loss of credibility, tighter supervision, and increased regulatory scrutiny.",
+        "longTermImpact": "Improved treasury management, stronger internal controls, and enhanced RBI oversight."
+    },
+    {
+        "sector": "Capital Markets",
+        "reason": "Market manipulation exposed weaknesses in trading, settlement, and surveillance systems.",
+        "shortTermImpact": "Sharp decline in investor confidence and market participation.",
+        "longTermImpact": "Creation of modern market infrastructure including NSE, electronic trading, and stronger regulation."
+    },
+    {
+        "sector": "Financial Institutions",
+        "reason": "Several institutions held invalid Bank Receipts and suffered losses.",
+        "shortTermImpact": "Operational disruption and financial losses.",
+        "longTermImpact": "Improved compliance, auditing, and risk management frameworks."
+    },
+    {
+        "sector": "Manufacturing & Industrial Companies",
+        "reason": "Several fundamentally strong companies experienced valuation corrections because of broad market panic.",
+        "shortTermImpact": "Temporary decline in market capitalization.",
+        "longTermImpact": "Recovery supported by India's economic liberalization."
+    }
+],
+
+"companyImpact": [
+    {
+        "company": "Associated Cement Companies (ACC)",
+        "sector": "Cement",
+        "reason": "ACC became the most visible example of price manipulation during the scam.",
+        "shortTermImpact": "Share price rose from around ₹200 to nearly ₹9,000 before collapsing.",
+        "longTermImpact": "Became one of India's most studied examples of market manipulation."
+    },
+    {
+        "company": "State Bank of India (SBI)",
+        "sector": "Banking",
+        "reason": "Transactions involving banking funds became central to the investigation.",
+        "shortTermImpact": "Faced increased scrutiny over treasury operations.",
+        "longTermImpact": "Strengthened banking controls and compliance."
+    },
+    {
+        "company": "National Housing Bank (NHB)",
+        "sector": "Financial Institution",
+        "reason": "Funds routed through NHB became part of the investigation.",
+        "shortTermImpact": "Operational and reputational impact.",
+        "longTermImpact": "Improved governance and regulatory oversight."
+    },
+    {
+        "company": "Sterlite Industries",
+        "sector": "Metals",
+        "reason": "Among the companies whose shares were significantly influenced by speculative activity.",
+        "shortTermImpact": "Sharp price volatility following the scam.",
+        "longTermImpact": "Returned to trading based on business fundamentals."
+    },
+    {
+        "company": "Videocon",
+        "sector": "Consumer Electronics",
+        "reason": "Its shares were influenced during the speculative rally.",
+        "shortTermImpact": "Significant correction after scam exposure.",
+        "longTermImpact": "Illustrated the dangers of speculative market bubbles."
+    }
+],
+
+"structuralLegacy": {
+    "marketStructure": [
+        "Creation of the National Stock Exchange (NSE).",
+        "Transition to nationwide electronic trading.",
+        "Modernization of clearing and settlement infrastructure."
+    ],
+
+    "regulation": [
+        "SEBI became a statutory regulator.",
+        "Strengthened banking regulations.",
+        "Improved disclosure and compliance standards."
+    ],
+
+    "technology": [
+        "Foundation for dematerialized securities through NSDL.",
+        "Replacement of paper-based settlements with electronic systems.",
+        "Computerization of trading and surveillance."
+    ],
+
+    "investorBehaviour": [
+        "Greater awareness of speculative bubbles.",
+        "Improved focus on corporate fundamentals.",
+        "Higher demand for regulatory transparency."
+    ],
+
+    "economy": [
+        "Accelerated financial market reforms.",
+        "Improved confidence in long-term institutional development.",
+        "Established the foundation for India's modern capital markets."
+    ]
+},
+
+"benchmark": {
+    "primary": "BSE Sensex",
+
+    "alternatives": [
+        "NIFTY50"
+    ],
+
+    "selectionReason": "The BSE Sensex was India's primary benchmark index during 1992 and most accurately reflects the market impact of the Harshad Mehta Securities Scam."
+},
+"relatedContent": {
+    "events": [
+        "2000-dot-com-bubble",
+        "2008-global-financial-crisis"
+    ],
+
+    "companies": [
+        "Associated Cement Companies (ACC)",
+        "State Bank of India (SBI)",
+        "National Housing Bank (NHB)",
+        "Sterlite Industries",
+        "Videocon"
+    ],
+
+    "sectors": [
+        "Banking & Financial Services",
+        "Capital Markets",
+        "Financial Institutions",
+        "Manufacturing & Industrial Companies"
+    ]
+},
+
+"analyticsConfiguration": {
+    "recommendedMetrics": [
+        "Drawdown",
+        "Recovery",
+        "Recovery Speed",
+        "Volatility",
+        "Relative Performance",
+        "Rolling Returns",
+        "Maximum Loss",
+        "Market Strength Score",
+        "Stability Score",
+        "Resilience Score",
+        "Crash Resistance Score"
+    ]
+},
+
+"ui": {
+    "keywords": [
+        "Harshad Mehta Scam",
+        "1992 Securities Scam",
+        "Stock Market Scam",
+        "Bank Receipt Fraud",
+        "Ready Forward Deal",
+        "Indian Securities Scam"
+    ],
+
+    "aliases": [
+        "1992 Scam",
+        "Harshad Scam",
+        "Securities Scam 1992"
+    ],
+
+    "uiInsights": [
+        "Weak regulation can amplify market manipulation.",
+        "Transparent market infrastructure is essential for investor confidence.",
+        "Speculative rallies disconnected from fundamentals are unsustainable.",
+        "Strong financial regulation builds long-term market resilience.",
+        "Institutional reforms often emerge from major financial crises."
+    ],
+
+    "interestingFacts": [
+        "The scam accelerated the modernization of India's capital markets.",
+        "SEBI gained statutory powers after the scandal.",
+        "The National Stock Exchange (NSE) was established as part of post-scam reforms.",
+        "The transition toward electronic trading began after the scam.",
+        "ACC became one of the most famous examples of stock price manipulation in Indian market history."
+    ]
+},
+
+"references": {
+    "primarySources": [
+        "Reserve Bank of India (RBI)",
+        "Securities and Exchange Board of India (SEBI)",
+        "Joint Parliamentary Committee (JPC) Report on Securities Scam",
+        "Government of India",
+        "BSE Historical Records"
+    ],
+
+    "secondarySources": [
+        "Sucheta Dalal's investigative reports",
+        "NSE educational publications",
+        "RBI historical publications",
+        "Official market history publications"
+    ]
+},
+
+"verification": {
+    "verified": true,
+
+    "reviewedBy": "BullVision Research Team",
+
+    "reviewDate": "2026-07-17",
+
+    "confidence": {
+        "overall": "HIGH",
+
+        "sections": {
+            "identity": "HIGH",
+            "timeline": "HIGH",
+            "historicalContext": "HIGH",
+            "rootCauses": "HIGH",
+            "marketImpact": "HIGH",
+            "economicImpact": "MEDIUM",
+            "governmentResponse": "HIGH",
+            "centralBankResponse": "HIGH",
+            "regulatoryChanges": "HIGH",
+            "sectorAnalysis": "HIGH",
+            "companyImpact": "HIGH",
+            "structuralLegacy": "HIGH",
+            "benchmark": "HIGH",
+            "references": "HIGH"
+        }
+    }
+}
+}

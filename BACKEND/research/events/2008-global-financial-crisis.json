@@ -1,0 +1,531 @@
+{
+    "metadata": {
+    "version": "1.0.0",
+    "status": "published",
+    "createdAt": "2026-07-17T00:00:00Z",
+    "updatedAt": "2026-07-17T00:00:00Z"
+},
+
+
+"identity": {
+    "id": "2008-global-financial-crisis",
+    "officialName": "Global Financial Crisis of 2007–2008",
+    "shortName": "2008 Global Financial Crisis",
+    "displayOrder": 3,
+    "eventClass": "Banking / Credit Crisis",
+    "category": "Global Systemic Financial Crisis",
+    "eventType": "Credit Crunch",
+    "severity": "EXTREME",
+
+    "countriesAffected": [
+        "United States",
+        "India",
+        "United Kingdom",
+        "Germany",
+        "France",
+        "Japan",
+        "China"
+    ],
+
+    "primaryMarket": "NIFTY50",
+
+    "secondaryMarkets": [
+        "BSE Sensex",
+        "BANKNIFTY",
+        "S&P 500",
+        "Dow Jones Industrial Average",
+        "NASDAQ"
+    ]
+},
+"timeline": {
+    "analysisStart": "2007-08-01",
+    "eventStart": "2008-01-21",
+    "eventPeak": "2008-01-08",
+    "peakPanicStart": "2008-09-15",
+    "peakPanicEnd": "2008-10-10",
+    "eventBottom": "2008-11-20",
+    "recoveryStart": "2009-03-09",
+    "recoveryEnd": "2014-01-01",
+
+    "importantAnnouncements": [
+        {
+            "date": "2008-09-15",
+            "title": "Lehman Brothers Bankruptcy",
+            "type": "Global",
+            "description": "Collapse of Lehman Brothers triggered the most severe phase of the Global Financial Crisis."
+        },
+        {
+            "date": "2008-10-20",
+            "title": "RBI Monetary Easing Begins",
+            "type": "RBI",
+            "description": "RBI shifted from inflation control to aggressive liquidity support through repo and CRR reductions."
+        },
+        {
+            "date": "2008-12-07",
+            "title": "Government Fiscal Stimulus",
+            "type": "Government",
+            "description": "Government announced fiscal stimulus measures to support economic activity and infrastructure."
+        }
+    ]
+},
+"historicalContext": {
+    "economicConditions": "The global economy experienced strong credit expansion, rising leverage, and rapid growth before the crisis. India maintained GDP growth above 9%, supported by robust domestic demand and strong capital inflows.",
+
+    "marketConditions": "Global equity markets were trading near record highs, supported by abundant liquidity and optimistic investor sentiment. Indian equity markets also reached all-time highs during early 2008.",
+
+    "politicalConditions": "India maintained a stable political environment under the UPA government while major developed economies focused on addressing financial sector weaknesses as the crisis unfolded.",
+
+    "bankingSystem": "Indian banks remained relatively well regulated with limited direct exposure to US subprime mortgage-backed securities, although liquidity pressures emerged due to global financial contagion.",
+
+    "regulatoryEnvironment": "India already had an established regulatory framework through RBI and SEBI. Conservative banking regulations helped reduce systemic financial risk compared to western economies.",
+
+    "globalEnvironment": "The global financial system was characterized by excessive leverage, complex structured financial products, weak credit standards, and interconnected banking institutions that amplified systemic risk.",
+
+    "investorSentiment": "Investor confidence remained extremely optimistic before the crisis, driven by expectations of continued economic expansion and easy availability of global liquidity.",
+
+    "marketVulnerability": "Heavy dependence on foreign institutional investment, elevated equity valuations, global banking interconnectedness, and excessive leverage increased the vulnerability of financial markets to external shocks."
+},
+"rootCauses": {
+    "primaryCauses": [
+        "Collapse of the United States subprime mortgage market.",
+        "Excessive lending to high-risk borrowers with poor credit quality.",
+        "Rapid expansion of mortgage-backed securities (MBS) and collateralized debt obligations (CDOs).",
+        "High leverage across global financial institutions.",
+        "Weak risk management practices within major banks."
+    ],
+
+    "secondaryCauses": [
+        "Credit rating agencies underestimated the risk of structured financial products.",
+        "Housing market speculation created an unsustainable asset bubble.",
+        "Easy monetary policy and prolonged low interest rates encouraged excessive borrowing.",
+        "Global financial institutions became highly interconnected, increasing systemic risk."
+    ],
+
+    "triggerEvent": {
+        "date": "2008-09-15",
+        "title": "Lehman Brothers Bankruptcy",
+        "description": "The bankruptcy of Lehman Brothers triggered widespread panic, a global credit freeze, and accelerated the financial crisis."
+    },
+
+    "structuralCauses": [
+        "Weak global banking regulations before the crisis.",
+        "Overdependence on leverage for financial sector growth.",
+        "Lack of transparency in structured financial products.",
+        "Global dependence on interconnected financial institutions."
+    ]
+},
+"marketImpact": {
+    "summary": "The Global Financial Crisis triggered one of the sharpest market corrections in modern history. Indian equity markets experienced heavy selling due to global financial contagion, foreign institutional investor (FII) outflows, and weakening investor confidence.",
+
+    "marketReaction": "NIFTY50 declined by approximately 55–60% from its January 2008 peak as panic selling intensified following the collapse of major global financial institutions. Banking, real estate, infrastructure, and export-oriented sectors witnessed severe corrections.",
+
+    "investorBehaviour": "Foreign Institutional Investors (FIIs) aggressively sold Indian equities to meet liquidity requirements and reduce global risk exposure. Domestic investors also shifted towards defensive assets and reduced equity exposure.",
+
+    "liquidityImpact": "Global credit markets froze following the Lehman Brothers collapse, reducing capital availability. India experienced significant FII outflows, tighter credit conditions, and reduced market liquidity despite relatively stable domestic banking institutions.",
+
+    "sentimentChange": "Investor sentiment shifted rapidly from optimism and risk-taking to fear, uncertainty, and capital preservation. Confidence remained weak until coordinated monetary and fiscal stimulus measures restored market stability."
+},
+"economicImpact": {
+    "gdp": "India's GDP growth slowed significantly from over 9% before the crisis to approximately 6.7% during FY2008-09 as global demand weakened and domestic investment slowed.",
+
+    "inflation": "Commodity-driven inflation gradually eased as global demand collapsed, allowing the Reserve Bank of India to shift its focus from inflation control to economic growth and financial stability.",
+
+    "interestRates": "The Reserve Bank of India aggressively reduced policy rates and reserve requirements to improve liquidity, lower borrowing costs, and stimulate economic activity.",
+
+    "exchangeRate": "The Indian Rupee depreciated sharply against the US Dollar due to substantial Foreign Institutional Investor (FII) outflows and increased global demand for safe-haven currencies.",
+
+    "employment": "Employment growth slowed across export-oriented industries, financial services, manufacturing, and construction as companies reduced expansion plans and hiring.",
+
+    "industrialProduction": "Industrial production weakened due to declining domestic demand, reduced exports, lower investment activity, and tightening global credit conditions.",
+
+    "exports": "Indian exports declined significantly because of the global recession, particularly affecting IT services, textiles, gems and jewellery, automobiles, and engineering goods.",
+
+    "imports": "Imports declined as domestic demand weakened and international commodity prices fell after the initial phase of the crisis.",
+
+    "consumerSpending": "Consumer spending slowed as uncertainty increased, wealth declined due to falling equity markets, and businesses delayed investments.",
+
+    "corporateEarnings": "Corporate earnings declined across most sectors because of weaker demand, lower exports, tighter credit availability, and declining business confidence.",
+
+    "creditGrowth": "Bank credit growth slowed considerably as financial institutions became more cautious in lending and businesses postponed expansion projects."
+},
+"governmentResponse": {
+    "policies": [
+        "Implemented fiscal stimulus packages to support economic growth and restore investor confidence.",
+        "Increased public expenditure on infrastructure projects to generate employment and stimulate domestic demand.",
+        "Provided support to export-oriented industries affected by declining global demand.",
+        "Strengthened financial sector coordination with the Reserve Bank of India to maintain market stability."
+    ],
+
+    "fiscalMeasures": [
+        "Announced multiple fiscal stimulus packages during late 2008 and early 2009.",
+        "Reduced indirect taxes to encourage consumption and industrial production.",
+        "Increased infrastructure investment to offset slowing private sector investment.",
+        "Expanded government spending to sustain economic activity."
+    ],
+
+    "taxChanges": [
+        "Reduced excise duties on selected goods to stimulate domestic demand.",
+        "Provided tax relief measures for industries affected by the global slowdown."
+    ],
+
+    "emergencyActions": [
+        "Closely monitored banking sector liquidity in coordination with the Reserve Bank of India.",
+        "Implemented measures to maintain confidence in India's financial system.",
+        "Accelerated government spending to cushion the economic slowdown."
+    ],
+
+    "longTermReforms": [
+        "Strengthened financial sector supervision and coordination between regulators.",
+        "Encouraged infrastructure-led economic growth as a long-term recovery strategy.",
+        "Promoted stronger fiscal planning and macroeconomic resilience against external shocks."
+    ]
+},
+"centralBankResponse": {
+    "repoRate": "The Reserve Bank of India reduced the Repo Rate aggressively from 9.00% in October 2008 to 4.75% by April 2009 to stimulate economic activity and improve credit availability.",
+
+    "reverseRepo": "The Reverse Repo Rate was progressively reduced alongside the Repo Rate to encourage banks to lend rather than park surplus funds with the RBI.",
+
+    "crr": "The Cash Reserve Ratio (CRR) was reduced from 9.00% to 5.00%, releasing substantial liquidity into the banking system.",
+
+    "slr": "The Statutory Liquidity Ratio (SLR) was reduced to improve lending capacity and support financial stability.",
+
+    "liquidityMeasures": [
+        "Injected large-scale liquidity into the banking system through multiple monetary policy measures.",
+        "Expanded Liquidity Adjustment Facility (LAF) operations.",
+        "Conducted Open Market Operations (OMO) to improve market liquidity.",
+        "Provided special refinance facilities for banks and financial institutions."
+    ],
+
+    "forexInterventions": [
+        "Supplied US Dollars from foreign exchange reserves to reduce excessive Rupee volatility.",
+        "Implemented forex liquidity measures to stabilize currency markets."
+    ],
+
+    "specialSchemes": [
+        "Introduced special refinance facilities for banks, housing finance companies, and export credit institutions.",
+        "Provided additional liquidity support for mutual funds and Non-Banking Financial Companies (NBFCs)."
+    ],
+
+    "emergencyMeasures": [
+        "Shifted monetary policy from inflation control to economic growth support.",
+        "Implemented coordinated liquidity support alongside Government fiscal stimulus.",
+        "Continuously monitored banking sector stability and systemic financial risks."
+    ]
+},
+"regulatoryChanges": {
+    "sebi": [
+        "Strengthened disclosure requirements for listed companies to improve market transparency.",
+        "Enhanced market surveillance systems to detect unusual trading activity and systemic risks.",
+        "Improved risk management frameworks for stock exchanges and market intermediaries."
+    ],
+
+    "rbi": [
+        "Strengthened prudential norms for banks and financial institutions.",
+        "Enhanced supervision of liquidity risk and capital adequacy.",
+        "Improved stress testing frameworks for the Indian banking system."
+    ],
+
+    "stockExchange": [
+        "Strengthened exchange-level risk monitoring mechanisms.",
+        "Enhanced clearing and settlement risk management procedures.",
+        "Improved surveillance of large market positions."
+    ],
+
+    "settlement": [
+        "Strengthened clearing corporation risk management.",
+        "Improved settlement guarantee mechanisms.",
+        "Enhanced collateral management practices."
+    ],
+
+    "disclosure": [
+        "Improved financial reporting standards for listed companies.",
+        "Strengthened disclosure requirements related to financial risks and corporate governance."
+    ],
+
+    "riskManagement": [
+        "Introduced stronger enterprise risk management practices across financial institutions.",
+        "Expanded stress testing and scenario analysis for banks.",
+        "Improved monitoring of systemic financial risks."
+    ],
+
+    "permanentChanges": [
+        "Greater emphasis on financial stability alongside economic growth.",
+        "Stronger coordination between RBI, SEBI, Government and financial regulators.",
+        "Improved banking sector resilience through higher capital and liquidity standards.",
+        "Increased focus on macroprudential regulation to reduce systemic risk."
+    ]
+},
+"sectorAnalysis": [
+    {
+        "sector": "Banking & Financial Services",
+        "reason": "Global credit freeze, liquidity pressures, and significant FII selling severely affected banking stocks despite limited direct exposure to US subprime assets.",
+        "shortTermImpact": "Sharp decline in stock prices, higher funding costs, reduced credit growth, and increased market volatility.",
+        "longTermImpact": "Improved capital adequacy, stronger risk management practices, enhanced regulatory oversight, and a more resilient banking system."
+    },
+
+    {
+        "sector": "Real Estate",
+        "reason": "Credit tightening, reduced availability of financing, and weaker consumer demand significantly impacted the sector.",
+        "shortTermImpact": "Property sales declined sharply, projects were delayed, and highly leveraged developers faced financial stress.",
+        "longTermImpact": "Industry consolidation, improved financial discipline, and greater regulatory focus on transparency and funding."
+    },
+
+    {
+        "sector": "Information Technology",
+        "reason": "Global recession reduced technology spending in major export markets including the United States and Europe.",
+        "shortTermImpact": "Slower revenue growth, reduced client spending, and weaker investor sentiment.",
+        "longTermImpact": "Business model diversification, increased focus on cost optimization, and stronger global competitiveness."
+    },
+
+    {
+        "sector": "Automobile",
+        "reason": "Reduced consumer demand, tighter credit conditions, and declining business confidence impacted vehicle sales.",
+        "shortTermImpact": "Lower vehicle sales, production cuts, and reduced profitability.",
+        "longTermImpact": "Gradual recovery supported by economic stimulus and improving consumer confidence."
+    },
+
+    {
+        "sector": "Export-Oriented Manufacturing",
+        "reason": "Weak global demand reduced exports across engineering goods, textiles, gems & jewellery, and manufacturing industries.",
+        "shortTermImpact": "Declining export orders, lower capacity utilization, and revenue pressure.",
+        "longTermImpact": "Greater export diversification and improved operational efficiency."
+    },
+
+    {
+        "sector": "FMCG",
+        "reason": "Demand for essential consumer goods remained relatively stable during the crisis.",
+        "shortTermImpact": "Moderate correction compared to cyclical sectors with relatively stable earnings.",
+        "longTermImpact": "Continued steady growth supported by domestic consumption."
+    },
+
+    {
+        "sector": "Pharmaceuticals",
+        "reason": "Healthcare demand remained comparatively resilient despite the global recession.",
+        "shortTermImpact": "Limited downside compared to broader markets and defensive investor preference.",
+        "longTermImpact": "Strengthened position as a defensive sector with sustained export growth."
+    }
+],
+"companyImpact": [
+    {
+        "company": "State Bank of India (SBI)",
+        "sector": "Banking",
+        "reason": "Global financial contagion, liquidity concerns, and aggressive FII selling.",
+        "shortTermImpact": "Stock price declined significantly with increased market volatility.",
+        "longTermImpact": "Recovered with stronger capital adequacy, improved regulation, and better risk management."
+    },
+    {
+        "company": "ICICI Bank",
+        "sector": "Banking",
+        "reason": "Higher exposure to global financial markets and negative investor sentiment.",
+        "shortTermImpact": "Significant correction driven by liquidity concerns and market panic.",
+        "longTermImpact": "Strengthened balance sheet and improved capital management."
+    },
+    {
+        "company": "HDFC Bank",
+        "sector": "Banking",
+        "reason": "Sector-wide selling despite relatively stronger fundamentals.",
+        "shortTermImpact": "Declined with the overall banking sector.",
+        "longTermImpact": "Recovered quickly due to superior asset quality and operational strength."
+    },
+    {
+        "company": "DLF",
+        "sector": "Real Estate",
+        "reason": "Credit crunch, weak property demand, and financing constraints.",
+        "shortTermImpact": "Severe stock price decline and project delays.",
+        "longTermImpact": "Industry consolidation and more disciplined financing."
+    },
+    {
+        "company": "Infosys",
+        "sector": "Information Technology",
+        "reason": "Reduced technology spending by US and European clients.",
+        "shortTermImpact": "Revenue growth slowed and investor sentiment weakened.",
+        "longTermImpact": "Expanded globally and diversified client base."
+    },
+    {
+        "company": "TCS",
+        "sector": "Information Technology",
+        "reason": "Global recession reduced enterprise technology spending.",
+        "shortTermImpact": "Moderate decline in earnings growth.",
+        "longTermImpact": "Strengthened leadership through operational efficiency."
+    },
+    {
+        "company": "Tata Motors",
+        "sector": "Automobile",
+        "reason": "Weak consumer demand and reduced access to credit.",
+        "shortTermImpact": "Vehicle sales declined significantly.",
+        "longTermImpact": "Recovered with improving economic conditions."
+    },
+    {
+        "company": "Reliance Industries",
+        "sector": "Diversified",
+        "reason": "Commodity price volatility and global economic slowdown.",
+        "shortTermImpact": "Earnings pressure and stock price correction.",
+        "longTermImpact": "Recovered through business diversification and operational scale."
+    }
+],
+"structuralLegacy": {
+    "marketStructure": [
+        "Greater emphasis on financial stability alongside economic growth.",
+        "Improved coordination among financial regulators.",
+        "Better systemic risk monitoring across financial markets."
+    ],
+
+    "regulation": [
+        "Stronger banking supervision and prudential regulations.",
+        "Enhanced capital adequacy and liquidity standards.",
+        "Expanded macroprudential regulatory framework."
+    ],
+
+    "technology": [
+        "Improved financial risk monitoring systems.",
+        "Greater adoption of technology-driven market surveillance."
+    ],
+
+    "investorBehaviour": [
+        "Higher awareness of systemic financial risks.",
+        "Greater focus on portfolio diversification.",
+        "Increased preference for fundamentally strong companies during crises."
+    ],
+
+    "economy": [
+        "Greater emphasis on fiscal discipline and financial resilience.",
+        "Improved crisis-management coordination between Government and RBI.",
+        "Enhanced preparedness for future external economic shocks."
+    ]
+},
+"benchmark": {
+    "primary": "NIFTY50",
+
+    "alternatives": [
+        "BSE Sensex",
+        "BANKNIFTY",
+        "NIFTY IT"
+    ],
+
+    "selectionReason": "NIFTY50 represents the broad Indian equity market and provides the most appropriate benchmark for evaluating the impact of a systemic financial crisis across major sectors of the economy."
+},
+"relatedContent": {
+    "events": [
+        "2000-dot-com-bubble",
+        "2013-taper-tantrum",
+        "2020-covid-crash"
+    ],
+
+    "companies": [
+        "State Bank of India (SBI)",
+        "ICICI Bank",
+        "HDFC Bank",
+        "DLF",
+        "Infosys",
+        "TCS",
+        "Reliance Industries",
+        "Tata Motors"
+    ],
+
+    "sectors": [
+        "Banking & Financial Services",
+        "Real Estate",
+        "Information Technology",
+        "Automobile",
+        "Export-Oriented Manufacturing",
+        "FMCG",
+        "Pharmaceuticals"
+    ]
+},
+"analyticsConfiguration": {
+    "recommendedMetrics": [
+        "Drawdown",
+        "Recovery",
+        "Recovery Speed",
+        "Volatility",
+        "Relative Performance",
+        "Rolling Returns",
+        "Beta",
+        "Maximum Loss",
+        "Crash Resistance Score",
+        "Recovery Score",
+        "Stability Score",
+        "Market Strength Score",
+        "Resilience Score"
+    ]
+},
+"ui": {
+    "keywords": [
+        "Global Financial Crisis",
+        "2008 Financial Crisis",
+        "Subprime Mortgage Crisis",
+        "Lehman Brothers",
+        "Credit Crunch",
+        "Great Recession",
+        "Global Banking Crisis"
+    ],
+
+    "aliases": [
+        "2008 GFC",
+        "GFC",
+        "Subprime Crisis",
+        "Lehman Crisis"
+    ],
+
+    "uiInsights": [
+        "Excessive leverage can amplify market-wide risks.",
+        "Strong banking regulation improves financial resilience.",
+        "Global financial crises affect emerging markets through capital flows.",
+        "Diversification reduces portfolio risk during systemic events.",
+        "Liquidity is critical during financial crises."
+    ],
+
+    "interestingFacts": [
+        "The 2008 Global Financial Crisis produced one of the deepest drawdowns in NIFTY history.",
+        "India avoided a banking collapse because of conservative RBI regulation.",
+        "Foreign Institutional Investor (FII) outflows accelerated the market decline.",
+        "Recovery to new market highs required nearly six years.",
+        "The crisis permanently strengthened banking regulation worldwide."
+    ]
+},
+"references": {
+    "primarySources": [
+        "Reserve Bank of India Annual Reports",
+        "Reserve Bank of India Monetary Policy Reports",
+        "NSE Historical Index Data",
+        "SEBI Publications",
+        "Government of India Economic Survey",
+        "IMF Global Financial Stability Report"
+    ],
+
+    "secondarySources": [
+        "ADB Working Paper on Global Financial Crisis",
+        "World Bank Economic Reports",
+        "Reuters Historical Analysis",
+        "Bloomberg Market Analysis"
+    ]
+},
+"verification": {
+    "verified": true,
+
+    "reviewedBy": "BullVision Research Team",
+
+    "reviewDate": "2026-07-17",
+
+    "confidence": {
+        "overall": "HIGH",
+
+        "sections": {
+            "identity": "HIGH",
+            "timeline": "HIGH",
+            "historicalContext": "HIGH",
+            "rootCauses": "HIGH",
+            "marketImpact": "HIGH",
+            "economicImpact": "HIGH",
+            "governmentResponse": "HIGH",
+            "centralBankResponse": "HIGH",
+            "regulatoryChanges": "HIGH",
+            "sectorAnalysis": "HIGH",
+            "companyImpact": "MEDIUM",
+            "structuralLegacy": "HIGH",
+            "benchmark": "HIGH",
+            "references": "HIGH"
+        }
+    }
+}
+}

@@ -1,0 +1,95 @@
+@import './colors.css';
+@import './typography.css';
+@import './spacing.css';
+@import './animations.css';
+
+@theme inline {
+  --color-background: var(--bull-color-background);
+  --color-surface: var(--bull-color-surface);
+  --color-surface-elevated: var(--bull-color-surface-elevated);
+  --color-surface-overlay: var(--bull-color-surface-overlay);
+  --color-border: var(--bull-color-border);
+  --color-border-strong: var(--bull-color-border-strong);
+  --color-text-primary: var(--bull-color-text-primary);
+  --color-text-secondary: var(--bull-color-text-secondary);
+  --color-text-tertiary: var(--bull-color-text-tertiary);
+  --color-success: var(--bull-color-success);
+  --color-success-soft: var(--bull-color-success-soft);
+  --color-warning: var(--bull-color-warning);
+  --color-warning-soft: var(--bull-color-warning-soft);
+  --color-error: var(--bull-color-error);
+  --color-error-soft: var(--bull-color-error-soft);
+  --color-analytics: var(--bull-color-analytics);
+  --color-analytics-strong: var(--bull-color-analytics-strong);
+  --color-analytics-soft: var(--bull-color-analytics-soft);
+  --color-gold: var(--bull-color-gold);
+  --color-gold-soft: var(--bull-color-gold-soft);
+  --color-glow: var(--bull-color-glow);
+  --color-brand: var(--bull-color-analytics);
+  --color-brand-strong: var(--bull-color-analytics-strong);
+  --color-brand-soft: var(--bull-color-analytics-soft);
+  --color-info: var(--bull-color-analytics);
+  --color-info-soft: var(--bull-color-analytics-soft);
+  --color-danger: var(--bull-color-error);
+  --color-danger-soft: var(--bull-color-error-soft);
+
+  --font-sans: var(--bull-font-sans);
+  --font-display: var(--bull-font-display);
+  --font-mono: var(--bull-font-mono);
+
+  --text-2xs: var(--bull-text-2xs);
+  --text-xs: var(--bull-text-xs);
+  --text-sm: var(--bull-text-sm);
+  --text-md: var(--bull-text-md);
+  --text-base: var(--bull-text-base);
+  --text-lg: var(--bull-text-lg);
+  --text-xl: var(--bull-text-xl);
+  --text-2xl: var(--bull-text-2xl);
+  --text-3xl: var(--bull-text-3xl);
+  --text-4xl: var(--bull-text-4xl);
+  --text-5xl: var(--bull-text-5xl);
+  --text-6xl: var(--bull-text-6xl);
+  --text-7xl: var(--bull-text-7xl);
+
+  --leading-none: var(--bull-leading-none);
+  --leading-tight: var(--bull-leading-tight);
+  --leading-snug: var(--bull-leading-snug);
+  --leading-normal: var(--bull-leading-normal);
+  --leading-relaxed: var(--bull-leading-relaxed);
+
+  --tracking-tight: var(--bull-tracking-tight);
+  --tracking-normal: var(--bull-tracking-normal);
+  --tracking-wide: var(--bull-tracking-wide);
+  --tracking-wider: var(--bull-tracking-wider);
+
+  --font-weight-regular: var(--bull-weight-regular);
+  --font-weight-medium: var(--bull-weight-medium);
+  --font-weight-semibold: var(--bull-weight-semibold);
+  --font-weight-bold: var(--bull-weight-bold);
+  --font-weight-black: var(--bull-weight-black);
+
+  --spacing: var(--bull-space-unit);
+
+  --radius-xs: var(--bull-radius-xs);
+  --radius-sm: var(--bull-radius-sm);
+  --radius-md: var(--bull-radius-md);
+  --radius-lg: var(--bull-radius-lg);
+  --radius-xl: var(--bull-radius-xl);
+  --radius-2xl: var(--bull-radius-2xl);
+  --radius-3xl: var(--bull-radius-3xl);
+  --radius-full: var(--bull-radius-full);
+
+  --shadow-soft: 0 12px 30px var(--bull-color-shadow);
+  --shadow-raised: 0 24px 64px var(--bull-color-shadow);
+  --shadow-glow: 0 0 0 1px var(--bull-color-analytics-soft), 0 0 32px var(--bull-color-glow);
+  --shadow-border: inset 0 0 0 1px var(--bull-color-border);
+  --shadow-elevated: 0 18px 48px rgba(2, 6, 23, 0.28), 0 0 0 1px var(--bull-color-border);
+
+  --animate-fade-in: bull-fade-in var(--bull-duration-normal) var(--bull-ease-out) both;
+  --animate-slide-up: bull-slide-up var(--bull-duration-slow) var(--bull-ease-emphasized) both;
+  --animate-pulse-soft: bull-pulse-soft var(--bull-duration-ambient) var(--bull-ease-standard)
+    infinite;
+  --animate-shimmer: bull-shimmer var(--bull-duration-slower) linear infinite;
+  --animate-gentle-breathe: bull-pulse-soft var(--bull-duration-ambient)
+    var(--bull-ease-anticipate) infinite;
+}

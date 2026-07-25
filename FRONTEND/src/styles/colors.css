@@ -1,0 +1,89 @@
+:root {
+  color-scheme: dark;
+
+  --bull-color-background: #070b12;
+  --bull-color-surface: #0d111a;
+  --bull-color-surface-elevated: #141b29;
+  --bull-color-surface-overlay: rgba(7, 11, 18, 0.88);
+  --bull-color-border: rgba(148, 163, 184, 0.14);
+  --bull-color-border-strong: rgba(148, 163, 184, 0.24);
+
+  --bull-color-text-primary: #f4f7fb;
+  --bull-color-text-secondary: #a3afc2;
+  --bull-color-text-tertiary: #758095;
+
+  --bull-color-analytics: #5b8cff;
+  --bull-color-analytics-strong: #82b2ff;
+  --bull-color-analytics-soft: rgba(91, 140, 255, 0.16);
+  --bull-color-glow: rgba(91, 140, 255, 0.42);
+
+  --bull-color-success: #22c55e;
+  --bull-color-success-soft: rgba(34, 197, 94, 0.16);
+  --bull-color-warning: #d9a441;
+  --bull-color-warning-soft: rgba(217, 164, 65, 0.16);
+  --bull-color-error: #ef4444;
+  --bull-color-error-soft: rgba(239, 68, 68, 0.16);
+
+  --bull-color-gold: #c9a24f;
+  --bull-color-gold-soft: rgba(201, 162, 79, 0.16);
+  --bull-color-shadow: rgba(2, 6, 23, 0.48);
+
+  --bull-color-bg: var(--bull-color-background);
+  --bull-color-bg-elevated: var(--bull-color-surface-elevated);
+  --bull-color-text: var(--bull-color-text-primary);
+  --bull-color-text-muted: var(--bull-color-text-secondary);
+  --bull-color-text-subtle: var(--bull-color-text-tertiary);
+  --bull-color-brand: var(--bull-color-analytics);
+  --bull-color-brand-strong: var(--bull-color-analytics-strong);
+  --bull-color-brand-soft: var(--bull-color-analytics-soft);
+  --bull-color-info: var(--bull-color-analytics);
+  --bull-color-info-soft: var(--bull-color-analytics-soft);
+  --bull-color-danger: var(--bull-color-error);
+  --bull-color-danger-soft: var(--bull-color-error-soft);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+
+    --bull-color-background: #f7f9fc;
+    --bull-color-surface: #eef2f7;
+    --bull-color-surface-elevated: #ffffff;
+    --bull-color-surface-overlay: rgba(255, 255, 255, 0.88);
+    --bull-color-border: rgba(15, 23, 42, 0.12);
+    --bull-color-border-strong: rgba(15, 23, 42, 0.18);
+
+    --bull-color-text-primary: #0b1220;
+    --bull-color-text-secondary: #4b5568;
+    --bull-color-text-tertiary: #6b7282;
+
+    --bull-color-analytics: #315efb;
+    --bull-color-analytics-strong: #5b82ff;
+    --bull-color-analytics-soft: rgba(49, 94, 251, 0.12);
+    --bull-color-glow: rgba(49, 94, 251, 0.24);
+
+    --bull-color-success: #15803d;
+    --bull-color-success-soft: rgba(21, 128, 61, 0.12);
+    --bull-color-warning: #a16207;
+    --bull-color-warning-soft: rgba(161, 98, 7, 0.12);
+    --bull-color-error: #dc2626;
+    --bull-color-error-soft: rgba(220, 38, 38, 0.12);
+
+    --bull-color-gold: #9a7426;
+    --bull-color-gold-soft: rgba(154, 114, 38, 0.12);
+    --bull-color-shadow: rgba(15, 23, 42, 0.14);
+
+    --bull-color-bg: var(--bull-color-background);
+    --bull-color-bg-elevated: var(--bull-color-surface-elevated);
+    --bull-color-text: var(--bull-color-text-primary);
+    --bull-color-text-muted: var(--bull-color-text-secondary);
+    --bull-color-text-subtle: var(--bull-color-text-tertiary);
+    --bull-color-brand: var(--bull-color-analytics);
+    --bull-color-brand-strong: var(--bull-color-analytics-strong);
+    --bull-color-brand-soft: var(--bull-color-analytics-soft);
+    --bull-color-info: var(--bull-color-analytics);
+    --bull-color-info-soft: var(--bull-color-analytics-soft);
+    --bull-color-danger: var(--bull-color-error);
+    --bull-color-danger-soft: var(--bull-color-error-soft);
+  }
+}
