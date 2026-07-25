@@ -178,5 +178,5 @@ We welcome contributions! Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.m
 
 ## 📄 License & Author
 
-**Author:** Antigravity / Advanced Agentic Coding  
+**Author:** ADITYA ARORA
 **License:** ISC License  
