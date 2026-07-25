@@ -27,9 +27,9 @@ export interface RegisterResponse {
 
 export interface LoginResponse {
   success: true
-  message: string
-  token: string
   user: User
+  accessToken: string
+  expiresIn: string
 }
 
 export interface AuthenticatedProfile {
@@ -43,14 +43,25 @@ export interface ProfileResponse {
   user: AuthenticatedProfile
 }
 
-export async function register(credentials: RegisterCredentials): Promise<RegisterResponse> {
+export async function register(
+  credentials: RegisterCredentials,
+): Promise<RegisterResponse> {
   return getResponseData(api.post<RegisterResponse>('/auth/register', credentials))
 }
 
-export async function login(credentials: LoginCredentials): Promise<LoginResponse> {
-  const response = await getResponseData(api.post<LoginResponse>('/auth/login', credentials))
-  setAuthToken(response.token)
-  return response
+export async function login(
+  credentials: LoginCredentials,
+): Promise<LoginResponse> {
+  const response = await getResponseData(
+    api.post<Omit<LoginResponse, 'success'>>('/auth/login', credentials)
+  )
+
+  setAuthToken(response.accessToken)
+
+  return {
+    success: true,
+    ...response,
+  }
 }
 
 export async function profile(): Promise<ProfileResponse> {
