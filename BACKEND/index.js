@@ -1,16 +1,18 @@
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, ".env") });
+
 const {
     initializeInstrumentMaster,
 } = require("./src/market/loaders/instrumentLoader");
-
 
 const {
     loadInstruments,
 } = require("./src/market/services/instrumentService");
 
-require("dotenv").config();
-
 const express = require("express");
 const cors = require("cors");
+const helmet = require("helmet");
+const rateLimit = require("express-rate-limit");
 const { verifyDatabaseConnection } = require("./src/config/supabase");
 
 const authRoutes = require("./src/routes/auth.routes");
@@ -18,37 +20,56 @@ const portfolioRoutes = require("./src/routes/portfolio.routes");
 const marketRoutes = require("./src/routes/market.routes");
 const eventAnalysisRoutes = require("./src/routes/eventAnalysis.routes");
 const eventRoutes = require("./src/routes/event.routes");
-
-const errorHandler = require("./src/middlewares/errorHandler");
 const systemRoutes = require("./src/routes/system.routes");
+const errorHandler = require("./src/middlewares/errorHandler");
+
 const app = express();
 
-// Enable trust proxy so rate limiting works behind reverse proxies (Railway, Vercel, Heroku, etc.)
+// Enable trust proxy so rate limiting works behind reverse proxies (Render, Railway, Vercel, etc.)
 // Without this, req.ip will be the proxy's IP and all users will share the same rate limit.
 app.set("trust proxy", 1);
 
-const helmet = require("helmet");
-const rateLimit = require("express-rate-limit");
+// ================= CORS Configuration =================
+const parseCorsOrigins = () => {
+    if (process.env.NODE_ENV !== "production") {
+        return true;
+    }
 
-// ================= Middleware =================
-const corsOrigin = process.env.NODE_ENV === "production"
-    ? process.env.FRONTEND_URL
-    : true;
+    const frontendUrl = process.env.FRONTEND_URL;
+    if (!frontendUrl) {
+        console.warn("⚠️ FRONTEND_URL is not set in production. Browser requests will be blocked by CORS.");
+        return false;
+    }
 
+    // Support single origin or comma-separated origins, stripping any trailing slash
+    return frontendUrl
+        .split(",")
+        .map(url => url.trim().replace(/\/$/, ""))
+        .filter(Boolean);
+};
+
+// ================= Global Middlewares =================
 app.use(helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
+
 app.use(cors({
-    origin: corsOrigin,
+    origin: parseCorsOrigins(),
     credentials: true
 }));
+
 app.use(express.json());
 
+// ================= Health & System Routes =================
+// Mounted BEFORE rate limiting so uptime monitors / Render health checks are never rate-limited
+app.use("/", systemRoutes);
+
+// ================= Rate Limiting for Application Routes =================
 const apiLimiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
-    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-    legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+    max: 100, // Limit each IP to 100 requests per 15 minutes
+    standardHeaders: true,
+    legacyHeaders: false,
     message: {
         success: false,
         message: "Too many requests, please try again later."
@@ -57,15 +78,36 @@ const apiLimiter = rateLimit({
 
 app.use(apiLimiter);
 
-// ================= Routes =================
+// ================= Readiness Guard Middleware =================
+// Guard application routes during background initialization
+let isReady = false;
+let initError = null;
+
+app.use((req, res, next) => {
+    if (isReady) {
+        return next();
+    }
+
+    if (initError) {
+        return res.status(503).json({
+            success: false,
+            message: "Service temporarily unavailable due to initialization error. Please try again shortly.",
+        });
+    }
+
+    res.set("Retry-After", "5");
+    return res.status(503).json({
+        success: false,
+        message: "Server is initializing dependencies. Please try again shortly.",
+    });
+});
+
+// ================= Application Routes =================
 app.use("/auth", authRoutes);
 app.use("/portfolio", portfolioRoutes);
 app.use("/market", marketRoutes);
 app.use("/api/event-analysis", eventAnalysisRoutes);
 app.use("/events", eventRoutes);
-app.use("/", systemRoutes);
-// ================= Health Check =================
-
 
 // ================= Global Error Handler =================
 app.use((req, res, next) => {
@@ -76,23 +118,12 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
-
     try {
-
         if (!process.env.JWT_SECRET) {
             throw new Error("Missing required environment variable: JWT_SECRET");
         }
 
-        // Verify the Supabase PostgreSQL connection before accepting requests.
-        await verifyDatabaseConnection();
-
-        // Initialize Instrument Master
-        const instrumentData = await initializeInstrumentMaster();
-
-        // Load Instruments into Memory
-        loadInstruments(instrumentData);
-
-        // Start Express Server
+        // Start Express Server immediately so Render port binding succeeds within startup timeout
         const server = app.listen(PORT, () => {
             console.log(`🚀 BullVision Server running on port ${PORT}`);
         });
@@ -129,14 +160,41 @@ const startServer = async () => {
             });
         });
 
-    } catch (error) {
+        // ================= Asynchronous Dependency Initialization =================
+        try {
+            // 1. Verify Supabase connection with a 15-second timeout safeguard
+            try {
+                await Promise.race([
+                    verifyDatabaseConnection(),
+                    new Promise((_, reject) =>
+                        setTimeout(() => reject(new Error("Supabase connection check timed out (15s)")), 15000)
+                    ),
+                ]);
+                console.log("✅ Supabase PostgreSQL connection verified.");
+            } catch (dbError) {
+                console.warn("⚠️ Initial Supabase connection check warning:", dbError.message);
+                // Non-fatal on cold start: Supabase free tier may be waking up
+            }
 
-        console.error("Failed to start BullVision.");
+            // 2. Initialize Instrument Master
+            const instrumentData = await initializeInstrumentMaster();
+
+            // 3. Load Instruments into Memory (optimized for low memory footprint)
+            loadInstruments(instrumentData);
+
+            isReady = true;
+            console.log("✅ BullVision application dependencies initialized and ready.");
+
+        } catch (initErr) {
+            initError = initErr;
+            console.error("❌ Failed to initialize application dependencies:", initErr.message);
+        }
+
+    } catch (error) {
+        console.error("Failed to start BullVision server.");
         console.error(error);
         process.exit(1);
-
     }
-
 };
 
 startServer();
